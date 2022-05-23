@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1062970725155",
+    "project_id": "ez-bot2",
+    "storage_bucket": "ez-bot2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062970725155:android:c761d4112004839fff3296",
+        "android_client_info": {
+          "package_name": "com.example.ez_bot_guid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062970725155-npgh2iq6hood1etk2d0am3lhv51vhcje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwvr30-DuqwKy6RlvlGKosJ1MnmCz3i6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062970725155-npgh2iq6hood1etk2d0am3lhv51vhcje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "165362505279",
+    "project_id": "ez-bot-guid",
+    "storage_bucket": "ez-bot-guid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165362505279:android:bae881b5879e3ab35f4a8a",
+        "android_client_info": {
+          "package_name": "com.example.ez_bot_guid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165362505279-chnpli25i4t37rasg1p208td6qdl7kse.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ez_bot_guid",
+            "certificate_hash": "a5e38122c3eb62555ef11e3a40a6ad3fdead91f2"
+          }
+        },
+        {
+          "client_id": "165362505279-0avrphjlh77offv5jheteb4os0rlbbo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9PmVcoxv11sN_rq3dFDjx49AGKl48M-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165362505279-0avrphjlh77offv5jheteb4os0rlbbo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
