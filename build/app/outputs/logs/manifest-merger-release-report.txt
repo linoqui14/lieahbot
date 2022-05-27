@@ -1,0 +1,923 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:20:5-53:19
+MERGED from [:cloud_firestore] C:\Users\Elvie\Documents\GitHub\lieahbot\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] C:\Users\Elvie\Documents\GitHub\lieahbot\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\Elvie\Documents\GitHub\lieahbot\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\Elvie\Documents\GitHub\lieahbot\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:9:5-15:19
+MERGED from [:url_launcher_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:7:5-12:19
+MERGED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:10:5-16:19
+MERGED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:10:5-16:19
+MERGED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:12:5-37:19
+MERGED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:12:5-37:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9fe73b7a7cd9f70b50d4672b43846ff6\jetified-firebase-analytics-20.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9fe73b7a7cd9f70b50d4672b43846ff6\jetified-firebase-analytics-20.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\958a08340619ccb69d5d07cc2ed20211\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\958a08340619ccb69d5d07cc2ed20211\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta06] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7b04bf88720a07df5a93c0ee693619f5\jetified-firebase-appcheck-interop-16.0.0-beta06\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta06] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7b04bf88720a07df5a93c0ee693619f5\jetified-firebase-appcheck-interop-16.0.0-beta06\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\99a92b2ad0813c0e282941fbb8914e22\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\99a92b2ad0813c0e282941fbb8914e22\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:9:5-20:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:9:5-20:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f87006ec7466512a46c3ab42ebba7ba7\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f87006ec7466512a46c3ab42ebba7ba7\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\95761007852e19c0e0c5e48d5379ed12\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\95761007852e19c0e0c5e48d5379ed12\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\edcfbd0ba780c20621cf3c3813c7c3f7\jetified-play-services-measurement-sdk-20.1.2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\edcfbd0ba780c20621cf3c3813c7c3f7\jetified-play-services-measurement-sdk-20.1.2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\792b83f7598e217a9b6c594e7c245460\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\792b83f7598e217a9b6c594e7c245460\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\a43530664da0f7ba7bc0bf4fca47495b\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\a43530664da0f7ba7bc0bf4fca47495b\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cce35a60025ce5aba2230100b1654e31\jetified-play-services-measurement-base-20.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cce35a60025ce5aba2230100b1654e31\jetified-play-services-measurement-base-20.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b13cf1074a4914733f528bf080f92609\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b13cf1074a4914733f528bf080f92609\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f073652a2b0a9b6b460323e1b4f086ac\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f073652a2b0a9b6b460323e1b4f086ac\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:20:5-34:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:20:5-34:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\14b93615368c2249f1830e26ca064ab5\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\14b93615368c2249f1830e26ca064ab5\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\54ebe39b016333200df4791b1b3ae02f\jetified-startup-runtime-1.1.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\54ebe39b016333200df4791b1b3ae02f\jetified-startup-runtime-1.1.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0bd53d61454f05a360ed50c12e1c0f57\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0bd53d61454f05a360ed50c12e1c0f57\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c9c9a6bb822b54a87d5aefdb88cf9928\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c9c9a6bb822b54a87d5aefdb88cf9928\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\547d80426ebf97c565a280ba11732ae0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\547d80426ebf97c565a280ba11732ae0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\14b93615368c2249f1830e26ca064ab5\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:21:9-33
+	android:icon
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:23:9-43
+	android:name
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:22:9-42
+manifest
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:1:1-54:12
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:1:1-54:12
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:1:1-54:12
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:1:1-54:12
+MERGED from [:cloud_firestore] C:\Users\Elvie\Documents\GitHub\lieahbot\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] C:\Users\Elvie\Documents\GitHub\lieahbot\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [:speech_to_text] C:\Users\Elvie\Documents\GitHub\lieahbot\build\speech_to_text\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:2:1-17:12
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:2:1-12:12
+MERGED from [:flutter_compass] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_compass\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:2:1-14:12
+MERGED from [:mapbox_gl] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mapbox_gl\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:perfect_volume_control] C:\Users\Elvie\Documents\GitHub\lieahbot\build\perfect_volume_control\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:geocoding] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geocoding\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:telephony] C:\Users\Elvie\Documents\GitHub\lieahbot\build\telephony\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_tts] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_tts\intermediates\library_manifest\release\AndroidManifest.xml:2:1-13:12
+MERGED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:2:1-18:12
+MERGED from [:mobile_number] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mobile_number\intermediates\library_manifest\release\AndroidManifest.xml:2:1-14:12
+MERGED from [:flutter_sms] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_sms\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.maps:android:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9dcf813cab6b2c587a6c10ec93517353\jetified-android-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.common:okhttp:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c58cb342d2dd4cc6306a108b5e43809b\jetified-okhttp-21.3.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.plugin:maps-annotation:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bd5b1a65dd5ac6d2af3885d18cf1a6a3\jetified-maps-annotation-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-localization:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f7f607e31c688e2218a4ba3e134a31dd\jetified-maps-localization-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-style:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\72b7b6e88dc6d3563543c1b0787d2c79\jetified-maps-style-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-logo:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\94ed22545d7a9a5f19b62bc622947eed\jetified-maps-logo-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-compass:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\da77d582c32d52e0dfcd4ca3f09fa2d5\jetified-maps-compass-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-gestures:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ed3c771652696de88a8c2dbf3902725f\jetified-maps-gestures-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-attribution:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ad90eaa1a443353d9b09cc295192cf3c\jetified-maps-attribution-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-viewport:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9c5955e4db2218f672f86b486ee94056\jetified-maps-viewport-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c6aad467e72af60dcf36ba8484a7dc84\jetified-maps-locationcomponent-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-animation:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\281cc4e3b4a65dbc4a25125a999ce592\jetified-maps-animation-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-scalebar:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d56204fc67f3ca98b989616ea12d88a0\jetified-maps-scalebar-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-overlay:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\de3ff1d34c7404698dcf1682a9b91cce\jetified-maps-overlay-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\316ae589f4872e090d4f9b2866a98d26\jetified-maps-lifecycle-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.module:maps-telemetry:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d3150758cd956ea1a4cec33552448e5d\jetified-maps-telemetry-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:base:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ce34c6b020f1b3eea3acfbb337946d06\jetified-base-10.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:2:1-33:12
+MERGED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:2:1-39:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\a3b86b42fafb2019c6d99a912992ce19\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9fe73b7a7cd9f70b50d4672b43846ff6\jetified-firebase-analytics-20.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\958a08340619ccb69d5d07cc2ed20211\jetified-play-services-location-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta06] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7b04bf88720a07df5a93c0ee693619f5\jetified-firebase-appcheck-interop-16.0.0-beta06\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\99a92b2ad0813c0e282941fbb8914e22\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.9.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\173e079947ca1693d4b9455f0d7b46e9\jetified-mapbox-android-plugin-annotation-v9-0.9.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:0.12.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\dd9284e8cb053f2898a198ba69049cb0\jetified-mapbox-android-plugin-localization-v9-0.12.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f87006ec7466512a46c3ab42ebba7ba7\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3123524c34cf687bedd71be9da61301e\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3c410aa6c5f4e392932073a5fb9ebace\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.common:logger:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ceda584b4ab48f64ed88de24ba18a6df\jetified-logger-0.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.common:loader:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c657f3c3252d65af6b4f82ed92bcf95\jetified-loader-0.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.base:common:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2d38588de554e0d9def26ac2ae88a210\jetified-common-0.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\95761007852e19c0e0c5e48d5379ed12\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\edcfbd0ba780c20621cf3c3813c7c3f7\jetified-play-services-measurement-sdk-20.1.2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b0bd26d975251e4d3f9a8e50f0fd17fe\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\dc25d65ee8f966667bd67ae362ef0da4\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\792b83f7598e217a9b6c594e7c245460\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\a43530664da0f7ba7bc0bf4fca47495b\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cce35a60025ce5aba2230100b1654e31\jetified-play-services-measurement-base-20.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b13cf1074a4914733f528bf080f92609\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f073652a2b0a9b6b460323e1b4f086ac\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\6534af80ea69458d53cb0dd678c6b311\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3e9722aa3fdaa7d8684554fbffe1633e\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2aaff350b982aead97f7a1dd5f7710ab\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f3cdc5ce9a6bfa671a4f5518aabadb79\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9f7b51b975307b55688dd5b884dfbd35\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1aaca2244d3852aa3051f6ec5e863d3f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ce3fae280668b0503a293c526ec9328a\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:2:1-36:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\00761133dfc611405238987d56d47541\jetified-mapbox-android-gestures-0.7.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\55efa78fe7dd5340c3b16a9e76ef0926\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b4f7568fea2f511d767829dd5b644d2f\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e76984245f77d39c38f4d76388592dc0\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8326c47e01397eb9a2d35c3fa1830738\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2e35710d9bc3dfbe7276716a42af0cbd\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5cf36af8c665794dec2262fc6fa16b40\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\aee3a20ed22eaa6ce58c2a70407c377c\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5f88a748e85d2ef9c8213280277cced9\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\eab5bab970b853eac20ce27e4c7e73bb\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\098ec4a54616ec86cf9c04740ba12489\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d97c12dfdb8c2847306c37b87aa48f1\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7df58ccd2ccc82bc81039404188d6bbf\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\14b93615368c2249f1830e26ca064ab5\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\54ebe39b016333200df4791b1b3ae02f\jetified-startup-runtime-1.1.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3b4820e24d46e21c89efa32f5c2d6e2e\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d303dc6bb1b59f5c94a63e6083442da7\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bfe836fbdf895e44b7f6ff7103bf792d\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c08dcac29cefcadf912758ee4601aef8\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03faaaf442c9d720483fba49eda29474\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b7a7d62cdfec9b5c5710973fabb741e8\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\13ba3a2d390e92c714ad608cae0b18ad\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c254ab2735a2f91389abbff851b2715e\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e8863814c459b83896fb72460c5f5555\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0bd53d61454f05a360ed50c12e1c0f57\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ed337045782a87292c529ce55dd5bf4f\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8a1943dff77cb4b9be347b2342a8106d\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0bde3428b781ba2a04c058142e16310e\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\933a9e362967939ae202a5413d6d24d1\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\597222039f0715c7401267f68f1f9e7c\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5408995d19686f9d35f8a810d9d7986f\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c5fc0789798e34bd45f9039f964c33eb\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:5.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\10907404dcd087e29f6c15202299fff3\jetified-mapbox-android-core-5.0.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:2:1-21:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c9c9a6bb822b54a87d5aefdb88cf9928\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\547d80426ebf97c565a280ba11732ae0\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2341977d1a91ba1cfe2b6d080a2fe8a6\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bb034e126f121bd1853821de7e6d9777\jetified-grpc-android-1.44.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7e5cb6c6f9437da119823e44c35d9b10\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:1:1-54:12
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:1:1-54:12
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:1:1-54:12
+	package
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:2:5-38
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:1:1-54:12
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:1:1-54:12
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:3:5-78
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:10:5-79
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:10:5-79
+MERGED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:8:5-79
+MERGED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:8:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:3:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:4:5-81
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+MERGED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+MERGED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:10:5-79
+MERGED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:5.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\10907404dcd087e29f6c15202299fff3\jetified-mapbox-android-core-5.0.0\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:5.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\10907404dcd087e29f6c15202299fff3\jetified-mapbox-android-core-5.0.0\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:17:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bb034e126f121bd1853821de7e6d9777\jetified-grpc-android-1.44.1\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bb034e126f121bd1853821de7e6d9777\jetified-grpc-android-1.44.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:7:5-66
+MERGED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:17:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:7:5-68
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:9:5-73
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:8:5-74
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:9:22-71
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:10:5-75
+MERGED from [:speech_to_text] C:\Users\Elvie\Documents\GitHub\lieahbot\build\speech_to_text\intermediates\library_manifest\release\AndroidManifest.xml:7:5-76
+MERGED from [:speech_to_text] C:\Users\Elvie\Documents\GitHub\lieahbot\build\speech_to_text\intermediates\library_manifest\release\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:11:22-64
+queries
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:15:5-19:15
+MERGED from [:flutter_tts] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_tts\intermediates\library_manifest\release\AndroidManifest.xml:7:5-11:15
+MERGED from [:flutter_tts] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_tts\intermediates\library_manifest\release\AndroidManifest.xml:7:5-11:15
+intent#action:name:android.speech.RecognitionService
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:16:9-18:18
+action#android.speech.RecognitionService
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:17:13-72
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:17:21-69
+uses-sdk
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+MERGED from [:cloud_firestore] C:\Users\Elvie\Documents\GitHub\lieahbot\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] C:\Users\Elvie\Documents\GitHub\lieahbot\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\Elvie\Documents\GitHub\lieahbot\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\Elvie\Documents\GitHub\lieahbot\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:speech_to_text] C:\Users\Elvie\Documents\GitHub\lieahbot\build\speech_to_text\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:speech_to_text] C:\Users\Elvie\Documents\GitHub\lieahbot\build\speech_to_text\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_bluetooth_serial] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_bluetooth_serial\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_compass] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_compass\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_compass] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_compass\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:mapbox_gl] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mapbox_gl\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:mapbox_gl] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mapbox_gl\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:perfect_volume_control] C:\Users\Elvie\Documents\GitHub\lieahbot\build\perfect_volume_control\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:perfect_volume_control] C:\Users\Elvie\Documents\GitHub\lieahbot\build\perfect_volume_control\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:geocoding] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geocoding\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:geocoding] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geocoding\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:telephony] C:\Users\Elvie\Documents\GitHub\lieahbot\build\telephony\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:telephony] C:\Users\Elvie\Documents\GitHub\lieahbot\build\telephony\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_tts] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_tts\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_tts] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_tts\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:mobile_number] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mobile_number\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:mobile_number] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mobile_number\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_sms] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_sms\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_sms] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_sms\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.maps:android:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9dcf813cab6b2c587a6c10ec93517353\jetified-android-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9dcf813cab6b2c587a6c10ec93517353\jetified-android-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:okhttp:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c58cb342d2dd4cc6306a108b5e43809b\jetified-okhttp-21.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:okhttp:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c58cb342d2dd4cc6306a108b5e43809b\jetified-okhttp-21.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bd5b1a65dd5ac6d2af3885d18cf1a6a3\jetified-maps-annotation-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bd5b1a65dd5ac6d2af3885d18cf1a6a3\jetified-maps-annotation-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f7f607e31c688e2218a4ba3e134a31dd\jetified-maps-localization-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f7f607e31c688e2218a4ba3e134a31dd\jetified-maps-localization-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\72b7b6e88dc6d3563543c1b0787d2c79\jetified-maps-style-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\72b7b6e88dc6d3563543c1b0787d2c79\jetified-maps-style-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\94ed22545d7a9a5f19b62bc622947eed\jetified-maps-logo-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\94ed22545d7a9a5f19b62bc622947eed\jetified-maps-logo-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\da77d582c32d52e0dfcd4ca3f09fa2d5\jetified-maps-compass-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\da77d582c32d52e0dfcd4ca3f09fa2d5\jetified-maps-compass-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ed3c771652696de88a8c2dbf3902725f\jetified-maps-gestures-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ed3c771652696de88a8c2dbf3902725f\jetified-maps-gestures-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ad90eaa1a443353d9b09cc295192cf3c\jetified-maps-attribution-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ad90eaa1a443353d9b09cc295192cf3c\jetified-maps-attribution-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9c5955e4db2218f672f86b486ee94056\jetified-maps-viewport-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9c5955e4db2218f672f86b486ee94056\jetified-maps-viewport-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c6aad467e72af60dcf36ba8484a7dc84\jetified-maps-locationcomponent-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c6aad467e72af60dcf36ba8484a7dc84\jetified-maps-locationcomponent-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-animation:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\281cc4e3b4a65dbc4a25125a999ce592\jetified-maps-animation-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-animation:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\281cc4e3b4a65dbc4a25125a999ce592\jetified-maps-animation-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d56204fc67f3ca98b989616ea12d88a0\jetified-maps-scalebar-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d56204fc67f3ca98b989616ea12d88a0\jetified-maps-scalebar-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\de3ff1d34c7404698dcf1682a9b91cce\jetified-maps-overlay-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\de3ff1d34c7404698dcf1682a9b91cce\jetified-maps-overlay-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\316ae589f4872e090d4f9b2866a98d26\jetified-maps-lifecycle-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\316ae589f4872e090d4f9b2866a98d26\jetified-maps-lifecycle-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d3150758cd956ea1a4cec33552448e5d\jetified-maps-telemetry-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d3150758cd956ea1a4cec33552448e5d\jetified-maps-telemetry-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ce34c6b020f1b3eea3acfbb337946d06\jetified-base-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.5.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ce34c6b020f1b3eea3acfbb337946d06\jetified-base-10.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\a3b86b42fafb2019c6d99a912992ce19\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\a3b86b42fafb2019c6d99a912992ce19\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9fe73b7a7cd9f70b50d4672b43846ff6\jetified-firebase-analytics-20.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9fe73b7a7cd9f70b50d4672b43846ff6\jetified-firebase-analytics-20.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\958a08340619ccb69d5d07cc2ed20211\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\958a08340619ccb69d5d07cc2ed20211\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta06] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7b04bf88720a07df5a93c0ee693619f5\jetified-firebase-appcheck-interop-16.0.0-beta06\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta06] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7b04bf88720a07df5a93c0ee693619f5\jetified-firebase-appcheck-interop-16.0.0-beta06\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\99a92b2ad0813c0e282941fbb8914e22\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\99a92b2ad0813c0e282941fbb8914e22\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.9.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\173e079947ca1693d4b9455f0d7b46e9\jetified-mapbox-android-plugin-annotation-v9-0.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.9.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\173e079947ca1693d4b9455f0d7b46e9\jetified-mapbox-android-plugin-annotation-v9-0.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:0.12.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\dd9284e8cb053f2898a198ba69049cb0\jetified-mapbox-android-plugin-localization-v9-0.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:0.12.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\dd9284e8cb053f2898a198ba69049cb0\jetified-mapbox-android-plugin-localization-v9-0.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f87006ec7466512a46c3ab42ebba7ba7\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f87006ec7466512a46c3ab42ebba7ba7\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3123524c34cf687bedd71be9da61301e\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3123524c34cf687bedd71be9da61301e\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3c410aa6c5f4e392932073a5fb9ebace\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3c410aa6c5f4e392932073a5fb9ebace\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:logger:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ceda584b4ab48f64ed88de24ba18a6df\jetified-logger-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:logger:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ceda584b4ab48f64ed88de24ba18a6df\jetified-logger-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c657f3c3252d65af6b4f82ed92bcf95\jetified-loader-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c657f3c3252d65af6b4f82ed92bcf95\jetified-loader-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2d38588de554e0d9def26ac2ae88a210\jetified-common-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2d38588de554e0d9def26ac2ae88a210\jetified-common-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\95761007852e19c0e0c5e48d5379ed12\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\95761007852e19c0e0c5e48d5379ed12\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\edcfbd0ba780c20621cf3c3813c7c3f7\jetified-play-services-measurement-sdk-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\edcfbd0ba780c20621cf3c3813c7c3f7\jetified-play-services-measurement-sdk-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b0bd26d975251e4d3f9a8e50f0fd17fe\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b0bd26d975251e4d3f9a8e50f0fd17fe\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\dc25d65ee8f966667bd67ae362ef0da4\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\dc25d65ee8f966667bd67ae362ef0da4\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\792b83f7598e217a9b6c594e7c245460\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\792b83f7598e217a9b6c594e7c245460\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\a43530664da0f7ba7bc0bf4fca47495b\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\a43530664da0f7ba7bc0bf4fca47495b\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cce35a60025ce5aba2230100b1654e31\jetified-play-services-measurement-base-20.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cce35a60025ce5aba2230100b1654e31\jetified-play-services-measurement-base-20.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b13cf1074a4914733f528bf080f92609\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b13cf1074a4914733f528bf080f92609\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f073652a2b0a9b6b460323e1b4f086ac\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f073652a2b0a9b6b460323e1b4f086ac\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\6534af80ea69458d53cb0dd678c6b311\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\6534af80ea69458d53cb0dd678c6b311\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3e9722aa3fdaa7d8684554fbffe1633e\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3e9722aa3fdaa7d8684554fbffe1633e\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2aaff350b982aead97f7a1dd5f7710ab\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2aaff350b982aead97f7a1dd5f7710ab\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f3cdc5ce9a6bfa671a4f5518aabadb79\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\f3cdc5ce9a6bfa671a4f5518aabadb79\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9f7b51b975307b55688dd5b884dfbd35\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\9f7b51b975307b55688dd5b884dfbd35\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1aaca2244d3852aa3051f6ec5e863d3f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1aaca2244d3852aa3051f6ec5e863d3f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ce3fae280668b0503a293c526ec9328a\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ce3fae280668b0503a293c526ec9328a\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\00761133dfc611405238987d56d47541\jetified-mapbox-android-gestures-0.7.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\00761133dfc611405238987d56d47541\jetified-mapbox-android-gestures-0.7.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\55efa78fe7dd5340c3b16a9e76ef0926\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\55efa78fe7dd5340c3b16a9e76ef0926\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b4f7568fea2f511d767829dd5b644d2f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b4f7568fea2f511d767829dd5b644d2f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e76984245f77d39c38f4d76388592dc0\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e76984245f77d39c38f4d76388592dc0\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8326c47e01397eb9a2d35c3fa1830738\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8326c47e01397eb9a2d35c3fa1830738\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2e35710d9bc3dfbe7276716a42af0cbd\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2e35710d9bc3dfbe7276716a42af0cbd\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5cf36af8c665794dec2262fc6fa16b40\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5cf36af8c665794dec2262fc6fa16b40\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\aee3a20ed22eaa6ce58c2a70407c377c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\aee3a20ed22eaa6ce58c2a70407c377c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5f88a748e85d2ef9c8213280277cced9\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5f88a748e85d2ef9c8213280277cced9\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\eab5bab970b853eac20ce27e4c7e73bb\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\eab5bab970b853eac20ce27e4c7e73bb\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\098ec4a54616ec86cf9c04740ba12489\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\098ec4a54616ec86cf9c04740ba12489\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d97c12dfdb8c2847306c37b87aa48f1\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d97c12dfdb8c2847306c37b87aa48f1\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7df58ccd2ccc82bc81039404188d6bbf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7df58ccd2ccc82bc81039404188d6bbf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\14b93615368c2249f1830e26ca064ab5\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\14b93615368c2249f1830e26ca064ab5\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\54ebe39b016333200df4791b1b3ae02f\jetified-startup-runtime-1.1.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\54ebe39b016333200df4791b1b3ae02f\jetified-startup-runtime-1.1.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3b4820e24d46e21c89efa32f5c2d6e2e\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\3b4820e24d46e21c89efa32f5c2d6e2e\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d303dc6bb1b59f5c94a63e6083442da7\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d303dc6bb1b59f5c94a63e6083442da7\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bfe836fbdf895e44b7f6ff7103bf792d\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bfe836fbdf895e44b7f6ff7103bf792d\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c08dcac29cefcadf912758ee4601aef8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c08dcac29cefcadf912758ee4601aef8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03faaaf442c9d720483fba49eda29474\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03faaaf442c9d720483fba49eda29474\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b7a7d62cdfec9b5c5710973fabb741e8\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b7a7d62cdfec9b5c5710973fabb741e8\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\13ba3a2d390e92c714ad608cae0b18ad\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\13ba3a2d390e92c714ad608cae0b18ad\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c254ab2735a2f91389abbff851b2715e\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c254ab2735a2f91389abbff851b2715e\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e8863814c459b83896fb72460c5f5555\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e8863814c459b83896fb72460c5f5555\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0bd53d61454f05a360ed50c12e1c0f57\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0bd53d61454f05a360ed50c12e1c0f57\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ed337045782a87292c529ce55dd5bf4f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ed337045782a87292c529ce55dd5bf4f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8a1943dff77cb4b9be347b2342a8106d\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8a1943dff77cb4b9be347b2342a8106d\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0bde3428b781ba2a04c058142e16310e\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0bde3428b781ba2a04c058142e16310e\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\933a9e362967939ae202a5413d6d24d1\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\933a9e362967939ae202a5413d6d24d1\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\597222039f0715c7401267f68f1f9e7c\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\597222039f0715c7401267f68f1f9e7c\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5408995d19686f9d35f8a810d9d7986f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5408995d19686f9d35f8a810d9d7986f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c5fc0789798e34bd45f9039f964c33eb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c5fc0789798e34bd45f9039f964c33eb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:5.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\10907404dcd087e29f6c15202299fff3\jetified-mapbox-android-core-5.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:5.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\10907404dcd087e29f6c15202299fff3\jetified-mapbox-android-core-5.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c9c9a6bb822b54a87d5aefdb88cf9928\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c9c9a6bb822b54a87d5aefdb88cf9928\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\547d80426ebf97c565a280ba11732ae0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\547d80426ebf97c565a280ba11732ae0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2341977d1a91ba1cfe2b6d080a2fe8a6\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2341977d1a91ba1cfe2b6d080a2fe8a6\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bb034e126f121bd1853821de7e6d9777\jetified-grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\bb034e126f121bd1853821de7e6d9777\jetified-grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7e5cb6c6f9437da119823e44c35d9b10\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\7e5cb6c6f9437da119823e44c35d9b10\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml
+activity#com.example.ez_bot_guid.MainActivity
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:26:9-46:20
+	android:launchMode
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:29:13-43
+	android:hardwareAccelerated
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:32:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:33:13-55
+	android:exported
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:28:13-36
+	android:configChanges
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:31:13-163
+	android:theme
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:30:13-47
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:27:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:38:13-41:19
+	android:resource
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:40:17-54
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:39:17-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:42:13-45:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:43:17-68
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:44:27-74
+meta-data#flutterEmbedding
+ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:49:9-51:33
+	android:value
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:51:13-30
+	android:name
+		ADDED from C:\Users\Elvie\Documents\GitHub\lieahbot\android\app\src\main\AndroidManifest.xml:50:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] C:\Users\Elvie\Documents\GitHub\lieahbot\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\Elvie\Documents\GitHub\lieahbot\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\Elvie\Documents\GitHub\lieahbot\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:19:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:cloud_firestore] C:\Users\Elvie\Documents\GitHub\lieahbot\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] C:\Users\Elvie\Documents\GitHub\lieahbot\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] C:\Users\Elvie\Documents\GitHub\lieahbot\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] C:\Users\Elvie\Documents\GitHub\lieahbot\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] C:\Users\Elvie\Documents\GitHub\lieahbot\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] C:\Users\Elvie\Documents\GitHub\lieahbot\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] C:\Users\Elvie\Documents\GitHub\lieahbot\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:7:22-74
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-77
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\Users\Elvie\Documents\GitHub\lieahbot\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+intent#action:name:android.intent.action.TTS_SERVICE
+ADDED from [:flutter_tts] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_tts\intermediates\library_manifest\release\AndroidManifest.xml:8:9-10:18
+action#android.intent.action.TTS_SERVICE
+ADDED from [:flutter_tts] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_tts\intermediates\library_manifest\release\AndroidManifest.xml:9:13-72
+	android:name
+		ADDED from [:flutter_tts] C:\Users\Elvie\Documents\GitHub\lieahbot\build\flutter_tts\intermediates\library_manifest\release\AndroidManifest.xml:9:21-69
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:11:9-15:56
+	android:enabled
+		ADDED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+	android:foregroundServiceType
+		ADDED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [:location] C:\Users\Elvie\Documents\GitHub\lieahbot\build\location\intermediates\library_manifest\release\AndroidManifest.xml:12:13-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:mobile_number] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mobile_number\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:38
+	android:maxSdkVersion
+		ADDED from [:mobile_number] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mobile_number\intermediates\library_manifest\release\AndroidManifest.xml:11:9-35
+	android:name
+		ADDED from [:mobile_number] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mobile_number\intermediates\library_manifest\release\AndroidManifest.xml:10:9-59
+uses-permission#android.permission.READ_PHONE_NUMBERS
+ADDED from [:mobile_number] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mobile_number\intermediates\library_manifest\release\AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from [:mobile_number] C:\Users\Elvie\Documents\GitHub\lieahbot\build\mobile_number\intermediates\library_manifest\release\AndroidManifest.xml:12:22-74
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [com.mapbox.common:okhttp:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c58cb342d2dd4cc6306a108b5e43809b\jetified-okhttp-21.3.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.mapbox.common:okhttp:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c58cb342d2dd4cc6306a108b5e43809b\jetified-okhttp-21.3.1\AndroidManifest.xml:9:22-76
+uses-feature#0x00020000
+ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:10:5-12:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:9:5-11:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:9:5-11:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:9:5-11:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:11:9-41
+	android:required
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:12:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:13:5-15:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:12:5-14:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:12:5-14:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:12:5-14:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:14:9-45
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:19:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1ef50f31f750713fb2a863fc1df372af\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:14:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:14:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:5.2.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\0c5815dc9c823f6385fe9486f87f80cb\jetified-mapbox-android-sdk-gl-core-5.2.2\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:19:22-73
+provider#androidx.startup.InitializationProvider
+ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:13:9-23:20
+MERGED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:13:9-23:20
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\54ebe39b016333200df4791b1b3ae02f\jetified-startup-runtime-1.1.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\54ebe39b016333200df4791b1b3ae02f\jetified-startup-runtime-1.1.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:26:13-31
+	android:authorities
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:24:13-68
+	android:exported
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:23:13-67
+meta-data#com.mapbox.maps.loader.MapboxMapsInitializer
+ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:27:13-29:52
+	android:value
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:29:17-49
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.5.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\2a6a3acdc0aae9a6167896679b1242d9\jetified-android-core-10.5.1\AndroidManifest.xml:28:17-76
+meta-data#com.mapbox.common.MapboxSDKCommonInitializer
+ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:20:13-22:52
+	android:value
+		ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:22:17-49
+	android:name
+		ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:21:17-76
+receiver#com.mapbox.common.location.LocationUpdatesReceiver
+ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:25:9-32:20
+	android:enabled
+		ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:27:13-36
+	android:exported
+		ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:26:13-78
+intent-filter#action:name:com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:29:13-31:29
+action#com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:30:17-125
+	android:name
+		ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:30:25-122
+service#com.mapbox.common.SystemInfoService
+ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:21.3.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\444c690d1c8a949898c7d9578c2b321f\jetified-common-21.3.1\AndroidManifest.xml:35:13-63
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.1.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\03a4bac28d3c7dac2475a64406193e79\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:21:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:12:5-68
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\a43530664da0f7ba7bc0bf4fca47495b\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\a43530664da0f7ba7bc0bf4fca47495b\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\e4cd8072a7fe786ddc6b243401767b9a\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\c2afdd64ca750e4dbd9b2ae4acc88fc5\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\5c0bcaf225cb7771e65a14163b1c7474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+activity#com.mapbox.mapboxsdk.plugins.offline.ui.OfflineActivity
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:12:9-14:125
+	android:configChanges
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:14:13-122
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:13:13-83
+service#com.mapbox.mapboxsdk.plugins.offline.offline.OfflineDownloadService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\8d06665aa559a3f3329f4c5cf1c6ab7b\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:18:13-95
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\ab7e2b0992c3b9cea3aa7f9c712258d1\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\d5fb8286ca99d937eba34d3367438dd1\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:16:5-18:38
+	android:maxSdkVersion
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:18:9-35
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:17:9-52
+provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:21:9-25:39
+	android:authorities
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:23:13-79
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:24:13-37
+	android:initOrder
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:22:13-93
+service#com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:27:9-30:72
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:29:13-37
+	android:permission
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:28:13-93
+service#com.mapbox.android.telemetry.MapboxTelemetryService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Elvie\.gradle\caches\transforms-2\files-2.1\33803df323382d8bba9db52e297e1103\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:32:13-79

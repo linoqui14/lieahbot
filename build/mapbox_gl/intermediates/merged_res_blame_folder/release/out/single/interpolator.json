@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\interpolator\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\interpolator\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\interpolator\\mtrl_linear.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\interpolator\\mtrl_linear.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\interpolator\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\interpolator\\mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\interpolator\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\interpolator\\mtrl_fast_out_linear_in.xml"
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\mapbox_mylocation_bg_shape.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\1ef50f31f750713fb2a863fc1df372af\\jetified-mapbox-android-sdk-9.6.2\\res\\drawable\\mapbox_mylocation_bg_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\mtrl_snackbar_background.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\drawable\\mtrl_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\14b93615368c2249f1830e26ca064ab5\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\mapbox_popup_window_transparent.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\1ef50f31f750713fb2a863fc1df372af\\jetified-mapbox-android-sdk-9.6.2\\res\\drawable\\mapbox_popup_window_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\14b93615368c2249f1830e26ca064ab5\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\mapbox_user_icon_shadow.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\1ef50f31f750713fb2a863fc1df372af\\jetified-mapbox-android-sdk-9.6.2\\res\\drawable\\mapbox_user_icon_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\14b93615368c2249f1830e26ca064ab5\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\mapbox_rounded_corner.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\1ef50f31f750713fb2a863fc1df372af\\jetified-mapbox-android-sdk-9.6.2\\res\\drawable\\mapbox_rounded_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\mapbox_info_bg_selector.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\1ef50f31f750713fb2a863fc1df372af\\jetified-mapbox-android-sdk-9.6.2\\res\\drawable\\mapbox_info_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\14b93615368c2249f1830e26ca064ab5\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\ic_mtrl_chip_close_circle.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\drawable\\ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\ic_cancel.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8d06665aa559a3f3329f4c5cf1c6ab7b\\jetified-mapbox-android-plugin-offline-v9-0.7.0\\res\\drawable\\ic_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\mapbox_ic_arrow_back.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8d06665aa559a3f3329f4c5cf1c6ab7b\\jetified-mapbox-android-plugin-offline-v9-0.7.0\\res\\drawable\\mapbox_ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\ic_mtrl_chip_checked_black.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\drawable\\ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\mtrl_tabs_default_indicator.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\drawable\\mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\ic_mtrl_chip_checked_circle.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\mapbox_region_selection_scrim.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8d06665aa559a3f3329f4c5cf1c6ab7b\\jetified-mapbox-android-plugin-offline-v9-0.7.0\\res\\drawable\\mapbox_region_selection_scrim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\f87006ec7466512a46c3ab42ebba7ba7\\material-1.0.0\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8eaf89a15e03c4a0b61cb75405393ff1\\appcompat-1.0.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elvie\\Documents\\GitHub\\lieahbot\\build\\mapbox_gl\\intermediates\\res\\merged\\release\\drawable\\mapbox_ic_check.xml",
+        "source": "C:\\Users\\Elvie\\.gradle\\caches\\transforms-2\\files-2.1\\8d06665aa559a3f3329f4c5cf1c6ab7b\\jetified-mapbox-android-plugin-offline-v9-0.7.0\\res\\drawable\\mapbox_ic_check.xml"
+    }
+]

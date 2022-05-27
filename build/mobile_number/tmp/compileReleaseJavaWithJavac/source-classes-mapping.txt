@@ -1,0 +1,9 @@
+com/amorenew/mobile_number/MobileNumberPlugin.java
+ com.amorenew.mobile_number.MobileNumberPlugin
+ com.amorenew.mobile_number.MobileNumberPlugin$1
+com/amorenew/mobile_number/CountryToPhonePrefix.java
+ com.amorenew.mobile_number.CountryToPhonePrefix
+com/amorenew/mobile_number/SimCard.java
+ com.amorenew.mobile_number.SimCard
+com/amorenew/mobile_number/BuildConfig.java
+ com.amorenew.mobile_number.BuildConfig

@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/ez_bot_guid/MainActivity.java
+ com.example.ez_bot_guid.MainActivity
+com/example/ez_bot_guid/BuildConfig.java
+ com.example.ez_bot_guid.BuildConfig

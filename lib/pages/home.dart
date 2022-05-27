@@ -313,6 +313,7 @@ class _HomeState extends State<Home>{
       MyLocation myLocation = MyLocation(id: uuid.v1(), userID: widget.userModel.id, long: event.longitude!, lat: event.latitude!, time: DateTime.now().millisecondsSinceEpoch);
       LiveLocation liveLocation = LiveLocation(id: widget.userModel.id, long: event.longitude!, lat: event.latitude!);
       LiveLocationController.upSert(liveLocationm: liveLocation);
+      MyLocationController.upSert(myLocationm: myLocation);
       if(lastLatLong.latitude==0){
         lastLatLong = LatLng(event.latitude!, event.longitude!);
       }
