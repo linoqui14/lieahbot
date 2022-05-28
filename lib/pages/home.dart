@@ -114,6 +114,7 @@ class _HomeState extends State<Home>{
   LatLng nextStep = LatLng(0, 0);
   bool reached = false;
   String directionS = "";
+  int mylocationCount = 0;
   void startTimer() {
     const oneSec = const Duration(seconds: 1);
     _timer =  Timer.periodic(
@@ -128,8 +129,6 @@ class _HomeState extends State<Home>{
             updateLocationCount = 0;
             currentStepSteped = false;
           }
-
-
           if (!connected){
 
             FlutterBluetoothSerial.instance.getBondedDevices().then((value) {
@@ -184,11 +183,17 @@ class _HomeState extends State<Home>{
           if(device!=null&&connection==null){
 
           }
-
+          if(mylocationCount>=120){
+            var uuid = Uuid();
+            MyLocation myLocation = MyLocation(id: uuid.v1(), userID: widget.userModel.id, long: currentPos!.longitude!, lat: currentPos!.latitude!, time: DateTime.now().millisecondsSinceEpoch);
+            MyLocationController.upSert(myLocationm: myLocation);
+            mylocationCount = 0;
+          }
           count++;
           updateLocationCount++;
           passLocationBT++;
           findDeviceCount++;
+          mylocationCount++;
         });
     _timer2 =  Timer.periodic(
         Duration(milliseconds: 500),
@@ -310,10 +315,8 @@ class _HomeState extends State<Home>{
     locationm.Location.instance.onLocationChanged.listen((event) {
       currentPos = event;
       var uuid = Uuid();
-      MyLocation myLocation = MyLocation(id: uuid.v1(), userID: widget.userModel.id, long: event.longitude!, lat: event.latitude!, time: DateTime.now().millisecondsSinceEpoch);
       LiveLocation liveLocation = LiveLocation(id: widget.userModel.id, long: event.longitude!, lat: event.latitude!);
       LiveLocationController.upSert(liveLocationm: liveLocation);
-      MyLocationController.upSert(myLocationm: myLocation);
       if(lastLatLong.latitude==0){
         lastLatLong = LatLng(event.latitude!, event.longitude!);
       }
@@ -350,17 +353,18 @@ class _HomeState extends State<Home>{
 
         }
         if(Geolocator.distanceBetween(currentPos!.latitude!, currentPos!.longitude!, steps.last.latitude, steps.last.longitude)<(isCustom?5:10)){
-          flutterTts.speak("You have reach your final destination. Congrats!").then((value) {
-            telephony.sendSms(to: widget.userModel.familyNumber, message: "Destination reached!\nTime:"+DateFormat.yMMMEd().add_jms().format(value)).whenComplete(() {
+          flutterTts.speak("You have reach your final destination. Congrats!").then((x) {
               NTP.now().then((value) {
-                var uuid = Uuid();
-                MyDestination myDestination = MyDestination(userID: widget.userModel.id, path: this.steps, time:value.millisecondsSinceEpoch,id: uuid.v1(),name: destination.text);
-                MyDestinationController.upSert(destinationm: myDestination);
+                  var uuid = Uuid();
+                  MyLocation myLocation = MyLocation(id: uuid.v1(), userID: widget.userModel.id, long: event.longitude!, lat: event.latitude!, time: DateTime.now().millisecondsSinceEpoch);
+                  MyLocationController.upSert(myLocationm: myLocation);
+                  DestinationReachedController.upSert(reached: DestinationReached(userID: widget.userModel.id, myLocationID: myLocation.id,id: uuid.v1()));
+                  telephony.sendSms(to: widget.userModel.familyNumber, message: "Destination reached!\nTime:"+DateFormat.yMMMEd().add_jms().format(value)).whenComplete(() {
+                });
               });
-            });
-            setState(() {
-              reached = true;
-            });
+              setState(() {
+                reached = true;
+              });
 
           });
         }
@@ -702,11 +706,17 @@ class _HomeState extends State<Home>{
 
                     ],
                   ),
+                  StreamBuilder<locationm.LocationData>(
+                    stream: locationm.Location.instance.onLocationChanged,
+                      builder: (context,snapshot){
+                      if(!snapshot.hasData)return Center();
+                      return Padding(
+                        padding: const EdgeInsets.all(50),
+                        child: Text(snapshot.data!.latitude.toString()+" - "+snapshot.data!.longitude.toString()+" : "+(steps.isNotEmpty?steps.last.latitude.toString()+" - "+steps.last.longitude.toString():""),style: TextStyle(color: Colors.red),),
+                      );
 
-                  Padding(
-                    padding: const EdgeInsets.all(50),
-                    child: Text(locationData!.latitude.toString()+" - "+locationData!.longitude.toString()+" : "+(steps.isNotEmpty?steps.last.latitude.toString()+" - "+steps.last.longitude.toString():""),style: TextStyle(color: Colors.red),),
-                  ),
+                  }),
+
                 ],
               ),
 

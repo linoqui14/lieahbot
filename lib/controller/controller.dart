@@ -64,6 +64,25 @@ class ChatController{
     chat.doc(chatm.userID).set(chatm.toMap());
   }
 }
+class DestinationReachedController{
+  static CollectionReference reachDestination = FirebaseFirestore.instance.collection('reachDestination');
+
+  static Future<DocumentSnapshot> getDestinationReachDoc({required String id}){
+    return reachDestination.doc(id).get();
+  }
+  static Stream<DocumentSnapshot> getDestinationReachStream({required String id}){
+    return reachDestination.doc(id).snapshots();
+  }
+  static Stream<QuerySnapshot> getDestinationReachStreamWhereUserID({required String userID}){
+    print(reachDestination.id);
+    return reachDestination.where('userID',isEqualTo: userID).snapshots();
+  }
+
+  static void upSert({required DestinationReached reached}){
+
+    reachDestination.doc(reached.id).set(reached.toMap());
+  }
+}
 class RecordController{
   static CollectionReference records = FirebaseFirestore.instance.collection('records');
 

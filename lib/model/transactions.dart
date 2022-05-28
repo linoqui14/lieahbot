@@ -112,15 +112,15 @@ class Chat{
 
 }
 class DestinationReached{
-  String userID;
-  List<dynamic> messages;
+  String userID,myLocationID,id;
 
-  DestinationReached({required this.userID,required this.messages});
+  DestinationReached({required this.userID,required this.myLocationID,required this.id});
 
   Map<String,dynamic> toMap(){
     return {
       'userID':userID,
-      'messages':messages,
+      'myLocationID':myLocationID,
+      'id':id,
 
     };
   }
@@ -128,7 +128,8 @@ class DestinationReached{
   static DestinationReached toObject(data){
     return DestinationReached(
       userID:data['userID'],
-      messages:data['messages'],
+      myLocationID:data['myLocationID'],
+      id:data['id'],
 
     );
   }

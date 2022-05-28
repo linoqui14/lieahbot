@@ -326,45 +326,45 @@ class _FamilyState extends State<Family> {
               color: Colors.black87,
               height: double.infinity,
               child: StreamBuilder<QuerySnapshot>(
-                stream: MyDestinationController.getDestinationWhereUserID(id: widget.userModel.id),
+                stream: MyLocationController.getLocationWithUserID(id: widget.userModel.id),
                 builder: (context,snapshot){
                   if(!snapshot.hasData)return Center(child: CircularProgressIndicator(),);
                   if(snapshot.data!.docs.isEmpty)return Center(child: CircularProgressIndicator(),);
-                  List<MyDestination> myDestinations = [];
+                  List<MyLocation> myLocations = [];
                   snapshot.data!.docs.forEach((element) {
-                    MyDestination myDestination = MyDestination.toObject(element.data());
-                    myDestinations.add(myDestination);
+                    MyLocation myLocation = MyLocation.toObject(element.data());
+                    myLocations.add(myLocation);
                   });
-                  myDestinations.sort((b,a)=>a.time.compareTo(b.time));
-                  // return ListView(
-                  //   children: myDestinations.map((e) {
-                  //
-                  //     return FutureBuilder<String>(
-                  //       future: GetAddressFromLatLong(LatLng(e.lat, e.long)),
-                  //       builder: (context,future){
-                  //         if(!future.hasData)return Center(child: CircularProgressIndicator(),);
-                  //         return Container(
-                  //             decoration: BoxDecoration(
-                  //               borderRadius: BorderRadius.circular(10),
-                  //               color: Colors.black45,
-                  //
-                  //             ),
-                  //             margin: EdgeInsets.all(5),
-                  //             padding: EdgeInsets.all(10),
-                  //             child: Column(
-                  //               crossAxisAlignment: CrossAxisAlignment.start,
-                  //               children: [
-                  //                 Text(future.data!,style: TextStyle(color: Colors.white,fontSize: 15,fontWeight: FontWeight.bold),),
-                  //                 Text(DateFormat.yMMMMd().add_jms().format(DateTime.fromMillisecondsSinceEpoch(e.time)),style: TextStyle(color: Colors.white,fontWeight: FontWeight.w100),),
-                  //               ],
-                  //             )
-                  //         );
-                  //       },
-                  //     );
-                  //   }).toList(),
-                  //
-                  // );
-                  return Center();
+                  myLocations.sort((b,a)=>a.time.compareTo(b.time));
+                  return ListView(
+                    children: myLocations.map((e) {
+
+                      return FutureBuilder<String>(
+                        future: GetAddressFromLatLong(LatLng(e.lat, e.long)),
+                        builder: (context,future){
+                          if(!future.hasData)return Center(child: CircularProgressIndicator(),);
+                          return Container(
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10),
+                                color: Colors.black45,
+
+                              ),
+                              margin: EdgeInsets.all(5),
+                              padding: EdgeInsets.all(10),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(future.data!,style: TextStyle(color: Colors.white,fontSize: 15,fontWeight: FontWeight.bold),),
+                                  Text(DateFormat.yMMMMd().add_jms().format(DateTime.fromMillisecondsSinceEpoch(e.time)),style: TextStyle(color: Colors.white,fontWeight: FontWeight.w100),),
+                                ],
+                              )
+                          );
+                        },
+                      );
+                    }).toList(),
+
+                  );
+                  // return Center();
                 },
               ),
             ),
@@ -386,148 +386,140 @@ class _FamilyState extends State<Family> {
                             print(recordPath.name);
                             recordPaths.add(recordPath);
                           });
-                          return Column(
-                              children: [
-                                Container(
-                                  height: MediaQuery. of(context). size. height*0.87,
-                                  child: ListView(
-                                    children: recordPaths.map((e) {
-                                      return Padding(
-                                        padding: const EdgeInsets.all(8.0),
-                                        child: Row(
-                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            Column(
-                                              crossAxisAlignment: CrossAxisAlignment.start,
-                                              children: [
-                                                Text(e.name,style: TextStyle(color: Colors.white,fontSize: 25,fontWeight: FontWeight.bold),),
-                                                Text(e.id,style: TextStyle(color: Colors.white,fontSize: 13,fontWeight: FontWeight.w100),),
-                                              ],
-                                            ),
-                                            IconButton(
-                                                onPressed:(){
-                                                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                                                    content: Row(
-                                                      children: [
-                                                        CustomTextButton(
-                                                          text: "Confirm",
-                                                          color: MyColors.darkBlue,
-                                                          onPressed: (){
-                                                              RecordController.delete(id: e.id);
-                                                              setState(() {
+                          return Container(
+                            height: MediaQuery. of(context). size. height*0.87,
+                            child: ListView(
+                              children: recordPaths.map((e) {
+                                return Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text(e.name,style: TextStyle(color: Colors.white,fontSize: 25,fontWeight: FontWeight.bold),),
+                                          Text(e.id,style: TextStyle(color: Colors.white,fontSize: 13,fontWeight: FontWeight.w100),),
+                                        ],
+                                      ),
+                                      IconButton(
+                                          onPressed:(){
+                                            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                                              content: Row(
+                                                children: [
+                                                  CustomTextButton(
+                                                    text: "Confirm",
+                                                    color: MyColors.darkBlue,
+                                                    onPressed: (){
+                                                        RecordController.delete(id: e.id);
+                                                        setState(() {
 
-                                                              });
-                                                          },
-                                                        )
-                                                      ],
-                                                    ),
-                                                    backgroundColor: Colors.blue,
-                                                    duration: Duration(seconds: 3),
-                                                  ));
-                                                },
-                                                icon: Icon(Icons.clear,color: Colors.redAccent,)
-                                            )
-                                          ],
-                                        ),
-                                      );
-                                    }).toList(),
+                                                        });
+                                                    },
+                                                  )
+                                                ],
+                                              ),
+                                              backgroundColor: Colors.blue,
+                                              duration: Duration(seconds: 3),
+                                            ));
+                                          },
+                                          icon: Icon(Icons.clear,color: Colors.redAccent,)
+                                      )
+                                    ],
                                   ),
-                                ),
-                                GestureDetector(
-                                    onTap: (){
-                                      List<String> path = [];
-                                      TextEditingController name = TextEditingController();
-                                      if(!isRecording){
-                                        showDialog(
-                                            context: context,
-                                            builder: (context){
-
-                                              return StatefulBuilder(
-                                                  builder: (context, setState) {
-                                                    return WillPopScope(
-                                                      onWillPop: () async => false,
-                                                      child: AlertDialog(
-                                                        title: Column(
-                                                          crossAxisAlignment: CrossAxisAlignment.start,
-                                                          children: [
-                                                            Text("Record path",style: TextStyle(fontSize: 30,fontWeight: FontWeight.w100),),
-                                                            Text("Press the button to add path."),
-                                                            StreamBuilder<locationm.LocationData>(
-                                                                stream: locationm.Location.instance.onLocationChanged,
-                                                                builder: (context, snapshot) {
-                                                                  if(!snapshot.hasData)return Center();
-                                                                  return CustomTextButton(
-
-                                                                    text: "Add",
-                                                                    onPressed: (){
-                                                                      if(name.text.isNotEmpty){
-                                                                        setState(() {
-
-                                                                          path.add(snapshot.data!.latitude.toString()+"-"+snapshot.data!.longitude.toString());
-
-                                                                        });
-                                                                      }
-
-                                                                    },
-                                                                  );
-                                                                }
-                                                            ),
-                                                            CustomTextField(hint: "Name", padding:EdgeInsets.zero, controller:name,color: Colors.black87, )
-                                                          ],
-                                                        ),
-                                                        content: Container(
-                                                          child: SizedBox(
-                                                            height: 500,
-                                                            width: 500,
-                                                            child: ListView(
-                                                              children: path.map((e) {
-                                                                return Text(e);
-                                                              }).toList(),
-                                                            ),
-                                                          ),
-                                                        ),
-                                                        actions: [
-                                                          CustomTextButton(
-                                                            color: Colors.amber,
-                                                            text:"Cancel",
-                                                            onPressed: (){
-                                                              Navigator.pop(context);
-                                                            },
-                                                          ),
-                                                          CustomTextButton(
-                                                            text:"Save",
-                                                            onPressed: (){
-                                                              var uuid = Uuid();
-                                                              RecordController.upSert(recordPath: RecordPath(id: uuid.v1(), name: name.text, path: path,userID: widget.userModel.id));
-                                                              Navigator.pop(context);
-                                                            },
-                                                          )
-                                                        ],
-                                                      ),
-                                                    );
-                                                  }
-                                              );
-                                            }
-                                        ).whenComplete(() {
-                                          setState(() {
-                                            isRecording = false;
-                                          });
-                                        });
-                                      }
-                                    },
-                                    child: Column(
-
-                                      children: [
-                                        Text("Record Path",style: TextStyle(color: Colors.white),),
-                                        Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
-                                        Icon(!isRecording?Icons.radio_button_unchecked:Icons.radio_button_checked,color:!isRecording?Colors.white:Colors.redAccent),
-                                      ],
-                                    )
-                                ),
-                              ]
+                                );
+                              }).toList(),
+                            ),
                           );
                         }
                     ),
+                  ),
+                ),
+                floatingActionButton: Container(
+                  child: CustomTextButton(
+                    text: "Record Path",
+                    color: MyColors.darkBlue,
+                    onPressed: (){
+                            List<String> path = [];
+                            TextEditingController name = TextEditingController();
+                            if(!isRecording){
+                              showDialog(
+                                  context: context,
+                                  builder: (context){
+
+                                    return StatefulBuilder(
+                                        builder: (context, setState) {
+                                          return WillPopScope(
+                                            onWillPop: () async => false,
+                                            child: AlertDialog(
+                                              title: Column(
+                                                crossAxisAlignment: CrossAxisAlignment.start,
+                                                children: [
+                                                  Text("Record path",style: TextStyle(fontSize: 30,fontWeight: FontWeight.w100),),
+                                                  Text("Press the button to add path."),
+                                                  StreamBuilder<locationm.LocationData>(
+                                                      stream: locationm.Location.instance.onLocationChanged,
+                                                      builder: (context, snapshot) {
+                                                        if(!snapshot.hasData)return Center();
+                                                        return CustomTextButton(
+
+                                                          text: "Add",
+                                                          onPressed: (){
+                                                            if(name.text.isNotEmpty){
+                                                              setState(() {
+
+                                                                path.add(snapshot.data!.latitude.toString()+"-"+snapshot.data!.longitude.toString());
+
+                                                              });
+                                                            }
+
+                                                          },
+                                                        );
+                                                      }
+                                                  ),
+                                                  CustomTextField(hint: "Name", padding:EdgeInsets.zero, controller:name,color: Colors.black87, )
+                                                ],
+                                              ),
+                                              content: Container(
+                                                child: SizedBox(
+                                                  height: 500,
+                                                  width: 500,
+                                                  child: ListView(
+                                                    children: path.map((e) {
+                                                      return Text(e);
+                                                    }).toList(),
+                                                  ),
+                                                ),
+                                              ),
+                                              actions: [
+                                                CustomTextButton(
+                                                  color: Colors.amber,
+                                                  text:"Cancel",
+                                                  onPressed: (){
+                                                    Navigator.pop(context);
+                                                  },
+                                                ),
+                                                CustomTextButton(
+                                                  text:"Save",
+                                                  onPressed: (){
+                                                    var uuid = Uuid();
+                                                    RecordController.upSert(recordPath: RecordPath(id: uuid.v1(), name: name.text, path: path,userID: widget.userModel.id));
+                                                    Navigator.pop(context);
+                                                  },
+                                                )
+                                              ],
+                                            ),
+                                          );
+                                        }
+                                    );
+                                  }
+                              ).whenComplete(() {
+                                setState(() {
+                                  isRecording = false;
+                                });
+                              });
+                            }
+                    },
                   ),
                 ),
 
@@ -540,159 +532,53 @@ class _FamilyState extends State<Family> {
                 body: Container(
                   child: SingleChildScrollView(
                     child: StreamBuilder<QuerySnapshot>(
-                        stream: MyDestinationController.getDestinationRecord(id: widget.userModel.id),
+                        stream: DestinationReachedController.getDestinationReachStreamWhereUserID(userID: widget.userModel.id),
                         builder: (context,snapshot){
                           if(!snapshot.hasData)return Center(child: CircularProgressIndicator(),);
                           if(snapshot.data!.docs.isEmpty)return Center(child: CircularProgressIndicator(),);
-                          List<MyDestination> myDestiny = [];
+                          List<DestinationReached> destinationsReached = [];
                           snapshot.data!.docs.forEach((element) {
-
-                            MyDestination des = MyDestination.toObject(element.data());
-                            if(des.id.isNotEmpty){
-                              myDestiny.add(des);
-                            }
-
+                            print(element.data());
+                            // DestinationReached des = DestinationReached.toObject(element.data());
+                            // destinationsReached.add(des);
 
                           });
-                          return Column(
-                              children: [
-                                Container(
-                                  height: MediaQuery. of(context). size. height*0.87,
-                                  child: ListView(
-                                    children: myDestiny.map((e) {
-                                      return Padding(
-                                        padding: const EdgeInsets.all(8.0),
-                                        child: Row(
-                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            Column(
+                          return Container(
+                            height: MediaQuery. of(context). size. height*0.87,
+                            child: ListView(
+                              children: destinationsReached.map((e) {
+                                return StreamBuilder<DocumentSnapshot>(
+                                  stream: MyLocationController.getLocation(id: e.myLocationID),
+                                  builder: (context, snapshot) {
+                                    if(!snapshot.hasData)return Center(child: CircularProgressIndicator(),);
+
+                                    MyLocation myLocation = MyLocation.toObject(snapshot.data);
+                                    return FutureBuilder<String>(
+                                      future: GetAddressFromLatLong(LatLng(myLocation.lat, myLocation.long)),
+                                      builder: (context,future){
+                                        if(!future.hasData)return Center(child: CircularProgressIndicator(),);
+                                        return Container(
+                                            decoration: BoxDecoration(
+                                              borderRadius: BorderRadius.circular(10),
+                                              color: Colors.black45,
+
+                                            ),
+                                            margin: EdgeInsets.all(5),
+                                            padding: EdgeInsets.all(10),
+                                            child: Column(
                                               crossAxisAlignment: CrossAxisAlignment.start,
                                               children: [
-                                                Text(e.name,style: TextStyle(color: Colors.white,fontSize: 25,fontWeight: FontWeight.bold),),
-                                                Text(e.id,style: TextStyle(color: Colors.white,fontSize: 13,fontWeight: FontWeight.w100),),
+                                                Text(future.data!,style: TextStyle(color: Colors.white,fontSize: 15,fontWeight: FontWeight.bold),),
+                                                Text(DateFormat.yMMMMd().add_jms().format(DateTime.fromMillisecondsSinceEpoch(myLocation.time)),style: TextStyle(color: Colors.white,fontWeight: FontWeight.w100),),
                                               ],
-                                            ),
-                                            IconButton(
-                                                onPressed:(){
-                                                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                                                    content: Row(
-                                                      children: [
-                                                        CustomTextButton(
-                                                          text: "Confirm",
-                                                          color: MyColors.darkBlue,
-                                                          onPressed: (){
-                                                            RecordController.delete(id: e.id);
-                                                            setState(() {
-
-                                                            });
-                                                          },
-                                                        )
-                                                      ],
-                                                    ),
-                                                    backgroundColor: Colors.blue,
-                                                    duration: Duration(seconds: 3),
-                                                  ));
-                                                },
-                                                icon: Icon(Icons.clear,color: Colors.redAccent,)
                                             )
-                                          ],
-                                        ),
-                                      );
-                                    }).toList(),
-                                  ),
-                                ),
-                                GestureDetector(
-                                    onTap: (){
-                                      List<String> path = [];
-                                      TextEditingController name = TextEditingController();
-                                      if(!isRecording){
-                                        showDialog(
-                                            context: context,
-                                            builder: (context){
-
-                                              return StatefulBuilder(
-                                                  builder: (context, setState) {
-                                                    return WillPopScope(
-                                                      onWillPop: () async => false,
-                                                      child: AlertDialog(
-                                                        title: Column(
-                                                          crossAxisAlignment: CrossAxisAlignment.start,
-                                                          children: [
-                                                            Text("Record path",style: TextStyle(fontSize: 30,fontWeight: FontWeight.w100),),
-                                                            Text("Press the button to add path."),
-                                                            StreamBuilder<locationm.LocationData>(
-                                                                stream: locationm.Location.instance.onLocationChanged,
-                                                                builder: (context, snapshot) {
-                                                                  if(!snapshot.hasData)return Center();
-                                                                  return CustomTextButton(
-
-                                                                    text: "Add",
-                                                                    onPressed: (){
-                                                                      if(name.text.isNotEmpty){
-                                                                        setState(() {
-
-                                                                          path.add(snapshot.data!.latitude.toString()+"-"+snapshot.data!.longitude.toString());
-
-                                                                        });
-                                                                      }
-
-                                                                    },
-                                                                  );
-                                                                }
-                                                            ),
-                                                            CustomTextField(hint: "Name", padding:EdgeInsets.zero, controller:name,color: Colors.black87, )
-                                                          ],
-                                                        ),
-                                                        content: Container(
-                                                          child: SizedBox(
-                                                            height: 500,
-                                                            width: 500,
-                                                            child: ListView(
-                                                              children: path.map((e) {
-                                                                return Text(e);
-                                                              }).toList(),
-                                                            ),
-                                                          ),
-                                                        ),
-                                                        actions: [
-                                                          CustomTextButton(
-                                                            color: Colors.amber,
-                                                            text:"Cancel",
-                                                            onPressed: (){
-                                                              Navigator.pop(context);
-                                                            },
-                                                          ),
-                                                          CustomTextButton(
-                                                            text:"Save",
-                                                            onPressed: (){
-                                                              var uuid = Uuid();
-                                                              RecordController.upSert(recordPath: RecordPath(id: uuid.v1(), name: name.text, path: path,userID: widget.userModel.id));
-                                                              Navigator.pop(context);
-                                                            },
-                                                          )
-                                                        ],
-                                                      ),
-                                                    );
-                                                  }
-                                              );
-                                            }
-                                        ).whenComplete(() {
-                                          setState(() {
-                                            isRecording = false;
-                                          });
-                                        });
-                                      }
-                                    },
-                                    child: Column(
-
-                                      children: [
-                                        Text("Record Path",style: TextStyle(color: Colors.white),),
-                                        Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
-                                        Icon(!isRecording?Icons.radio_button_unchecked:Icons.radio_button_checked,color:!isRecording?Colors.white:Colors.redAccent),
-                                      ],
-                                    )
-                                ),
-                              ]
+                                        );
+                                      },
+                                    );
+                                  }
+                                );
+                              }).toList(),
+                            ),
                           );
                         }
                     ),
