@@ -538,9 +538,9 @@ class _FamilyState extends State<Family> {
                           if(snapshot.data!.docs.isEmpty)return Center(child: CircularProgressIndicator(),);
                           List<DestinationReached> destinationsReached = [];
                           snapshot.data!.docs.forEach((element) {
-                            print(element.data());
-                            // DestinationReached des = DestinationReached.toObject(element.data());
-                            // destinationsReached.add(des);
+                            // print(element.data());
+                            DestinationReached des = DestinationReached.toObject(element.data());
+                            destinationsReached.add(des);
 
                           });
                           return Container(
